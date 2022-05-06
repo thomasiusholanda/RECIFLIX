@@ -6,7 +6,8 @@
 
 Primeiro projeto realizado com HTML5 & CSS3. 
 
-Projeto realizado com o professor: [Lucas Aguiar](https://github.com/felipeAguiarCode) do [DIO](https://www.dio.me/) e com uma ajuda importante de [Sabrina Morais](https://github.com/sabrinamoraism),que realizou um projeto incrível!
+Projeto realizado com o professor: [Lucas Aguiar](https://github.com/felipeAguiarCode) do [DIO](https://www.dio.me/) e com uma ajuda importante de [@Sabrina Morais]
+(https://github.com/sabrinamoraism),que realizou um projeto incrível!
 
 Decidi colocar o nome RECIFLIX porque sou de Recife/Pernambuco :smile:.
 
