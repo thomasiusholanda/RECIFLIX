@@ -1,0 +1,182 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+body{
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme Principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%),url('capa.jpg');
+    
+    height: 550px;
+    background-size: cover;
+
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 80px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    margin-top: 10%;
+    font-size: 90px;
+    font-family: 'rough';
+    font-weight: 100;
+    padding: 10px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 7px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.info{
+    font-size:17px;
+    font-family: 'rough';
+    background: linear-gradient(rgba(0, 0, 0, 0.815),rgba(126, 91, 15, 0.945)), url("capa.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.carrosel-minhalista{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.carrosel-assistindo{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+
+.carrosel-series{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+
+.carrosel-documentarios{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+
+.carrosel-filmes{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+
+iframe{
+    max-width: 1300px;
+    margin-bottom: 59px;
+}
+
+.frase{
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tituloinformacoes{
+    font-size: 80px;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
